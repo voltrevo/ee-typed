@@ -1,4 +1,4 @@
-# events-ts
+# ee-typed
 
 TypeScript version of the nodejs `events` module.
 
@@ -8,7 +8,7 @@ This is just the built-in nodejs event emitter with type information added, so y
 
 ```ts
 // Add the -ts suffix to the imported module
-import { EventEmitter } from 'events-ts';
+import { EventEmitter } from 'ee-typed';
 
 // Specify the types of all your events
 type Events = {
