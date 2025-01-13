@@ -2,6 +2,7 @@
   "name": "ee-typed",
   "version": "0.1.0",
   "description": "EventEmitter with type information",
+  "type": "module",
   "main": "dist/src/index.js",
   "devDependencies": {
     "typescript": "^5.4.5"
