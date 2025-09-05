@@ -1,6 +1,6 @@
 {
   "name": "ee-typed",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EventEmitter with type information",
   "type": "module",
   "main": "dist/src/index.js",

@@ -4,3 +4,5 @@ import TypedEmitter, { EventMap } from 'typed-emitter';
 export const EventEmitter = NodeEventEmitter as {
   new <T extends EventMap>(): TypedEmitter<T>;
 };
+
+export type { TypedEmitter, EventMap };
